@@ -139,6 +139,40 @@ QString Controller::getMorseFromCharacter(QChar character)
         morse = QString("- - - . .");
     } else if (character == '9') {
         morse = QString("- - - - .");
+    } else if (character == '!') {
+        morse = QString("- . - . - -");
+    } else if (character == '"') {
+        morse = QString(". - . . - .");
+    } else if (character == '$') {
+        morse = QString(". . . - . . -");
+    } else if (character == '&') {
+        morse = QString(". - . . .");
+    } else if (character == '(') {
+        morse = QString("- . - - .");
+    } else if (character == ')') {
+        morse = QString("- . - - . -");
+    } else if (character == '+') {
+        morse = QString(". - . - .");
+    } else if (character == ',') {
+        morse = QString("- - . . - -");
+    } else if (character == '-') {
+        morse = QString("- . . . . -");
+    } else if (character == '.') {
+        morse = QString(". - . - . -");
+    } else if (character == '/') {
+        morse = QString("- . . - .");
+    } else if (character == ':') {
+        morse = QString("- - - . . .");
+    } else if (character == ';') {
+        morse = QString("- . - . - .");
+    } else if (character == '=') {
+        morse = QString("- . . . -");
+    } else if (character == '?') {
+        morse = QString(". . - - . .");
+    } else if (character == '@') {
+        morse = QString(". - - . - .");
+    } else if (character == '_') {
+        morse = QString(". . - - . -");
     }
 
     return morse;
