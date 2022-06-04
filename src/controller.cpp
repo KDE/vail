@@ -119,6 +119,26 @@ QString Controller::getMorseFromCharacter(QChar character)
         morse = QString("- . - -");
     } else if (character == 'z' || character == 'Z') {
         morse = QString("- - . .");
+    } else if (character == '0') {
+        morse = QString("- - - - -");
+    } else if (character == '1') {
+        morse = QString(". - - - -");
+    } else if (character == '2') {
+        morse = QString(". . - - -");
+    } else if (character == '3') {
+        morse = QString(". . . - -");
+    } else if (character == '4') {
+        morse = QString(". . . . -");
+    } else if (character == '5') {
+        morse = QString(". . . . .");
+    } else if (character == '6') {
+        morse = QString("- . . . .");
+    } else if (character == '7') {
+        morse = QString("- - . . .");
+    } else if (character == '8') {
+        morse = QString("- - - . .");
+    } else if (character == '9') {
+        morse = QString("- - - - .");
     }
 
     return morse;
