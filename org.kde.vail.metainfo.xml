@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <!--
+  SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+  SPDX-License-Identifier: CC0-1.0
+  -->
+  <id>org.kde.vail</id>
+  <name>Vail</name>
+  <summary>Communicate using Morse</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <description>
+    <p>Vail let's you convert messages to Morse and copy them to the clipboard.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://invent.kde.org/fhek/vail/-/raw/master/.gitlab/vail.png</image>
+      <caption>Main View</caption>
+    </screenshot>
+  </screenshots>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <provides>
+    <binary>vail</binary>
+  </provides>
+  <url type="homepage">https://invent.kde.org/fhek/vail</url>
+  <url type="bugtracker">https://invent.kde.org/fhek/vail/-/issues</url>
+</component>
