@@ -21,7 +21,7 @@ public:
     Q_INVOKABLE void translate(QString message);
     Q_SIGNAL void translation(QString translated);
 
-    QString getMorseFromCharacter(QChar character);
+    QString getMorseFromCharacter(QString character);
 
 private:
 };

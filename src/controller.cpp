@@ -41,7 +41,7 @@ void Controller::translate(QString message)
     QString translatedMessage;
 
     for (auto word : words) {
-        for (auto character : word) {
+        for (QString character : word) {
             translatedMessage.append(getMorseFromCharacter(character));
 
             if (word.indexOf(character) == word.length()) {
@@ -63,7 +63,7 @@ void Controller::translate(QString message)
     Q_EMIT translation(translatedMessage);
 }
 
-QString Controller::getMorseFromCharacter(QChar character)
+QString Controller::getMorseFromCharacter(QString character)
 {
     QString morse;
 
@@ -143,6 +143,8 @@ QString Controller::getMorseFromCharacter(QChar character)
         morse = QString("- . - . - -");
     } else if (character == '"') {
         morse = QString(". - . . - .");
+    } else if (character == "'") {
+        morse = QString(". - - - - .");
     } else if (character == '$') {
         morse = QString(". . . - . . -");
     } else if (character == '&') {
