@@ -10,7 +10,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 PRIVATE
     Qt::Core
     Qt::Gui
-    Qt::Qml
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
