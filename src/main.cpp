@@ -1,7 +1,11 @@
 // SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
+#ifdef Q_OS_ANDROID
+#include <QGuiApplication>
+#else
 #include <QApplication>
+#endif
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QUrl>
@@ -12,12 +16,13 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
+#endif
 
 constexpr auto APPLICATION_ID = "org.kde.vail";
 
 #include "version-vail.h"
-#include "config.h"
 #include "controller.h"
 
 #ifdef Q_OS_ANDROID
@@ -70,9 +75,6 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    auto config = Config::self();
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
     qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
         return engine->toScriptValue(KAboutData::applicationData());
     });
@@ -87,7 +89,9 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+#ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
+#endif
 
     // Restore window size and position
     const auto rootObjects = engine.rootObjects();
