@@ -19,6 +19,7 @@
       <caption>Main View</caption>
     </screenshot>
   </screenshots>
+  <launchable type="desktop-id">org.kde.vail.desktop</launchable>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
