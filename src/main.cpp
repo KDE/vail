@@ -7,6 +7,7 @@
 #include <QUrl>
 #include <QtQml>
 #include <QQuickWindow>
+#include <QQuickStyle>
 
 #include <KAboutData>
 #include <KLocalizedContext>
@@ -15,32 +16,54 @@
 
 constexpr auto APPLICATION_ID = "org.kde.vail";
 
-#include "about.h"
 #include "version-vail.h"
 #include "config.h"
 #include "controller.h"
 
-Q_DECL_EXPORT int main(int argc, char *argv[])
+#ifdef Q_OS_ANDROID
+Q_DECL_EXPORT
+#endif
+int main(int argc, char *argv[])
 {
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-    QApplication app(argc, argv);
-    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("vail"));
+#endif
 
-    KAboutData aboutData(
-                         // The program name used internally.
-                         QStringLiteral("vail"),
-                         // A displayable program name string.
+#ifdef Q_OS_ANDROID
+    QGuiApplication app(argc, argv);
+    QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
+#else
+    QApplication app(argc, argv);
+    // Default to org.kde.desktop style unless the user forces another style
+    if (qEnvironmentVariableIsEmpty("QT_QUICK_CONTROLS_STYLE")) {
+        QQuickStyle::setStyle(QStringLiteral("org.kde.desktop"));
+    }
+#endif
+
+#ifdef Q_OS_WINDOWS
+    if (AttachConsole(ATTACH_PARENT_PROCESS)) {
+        freopen("CONOUT$", "w", stdout);
+        freopen("CONOUT$", "w", stderr);
+    }
+
+    QApplication::setStyle(QStringLiteral("breeze"));
+    auto font = app.font();
+    font.setPointSize(10);
+    app.setFont(font);
+#endif
+
+    KLocalizedString::setApplicationDomain("vail");
+
+    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
+
+    KAboutData aboutData(QStringLiteral("vail"),
                          i18nc("@title", "Vail"),
-                         // The program version string.
                          QStringLiteral(VAIL_VERSION_STRING),
-                         // Short description of what the app does.
                          i18n("Communicate using Morse"),
-                         // The license this code is released under.
                          KAboutLicense::GPL,
-                         // Copyright Statement.
                          i18n("© 2022"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
+    aboutData.setTranslator(i18nc("NAME OF TRANSLATORS", "Your names"), i18nc("EMAIL OF TRANSLATORS", "Your emails"));
     aboutData.setBugAddress("https://invent.kde.org/fhek/vail/-/issues/new");
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.vail")));
@@ -50,8 +73,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     auto config = Config::self();
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
 
-    AboutType about;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
+    qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
+        return engine->toScriptValue(KAboutData::applicationData());
+    });
 
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
