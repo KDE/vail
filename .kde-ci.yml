@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: None
+# SPDX-License-Identifier: CC0-1.0
+
+Dependencies:
+- 'on': ['@all']
+  'require':
+    'frameworks/extra-cmake-modules': '@stable'
+    'frameworks/ki18n': '@stable'
+    'frameworks/kirigami': '@stable'
+    'frameworks/kcoreaddons': '@stable'
+    'frameworks/knotifications': '@stable'
+    'frameworks/kconfig': '@stable'
+    'libraries/kirigami-addons': '@latest'
+    'third-party/qtkeychain': '@latest'
+
+- 'on': ['Linux', 'FreeBSD', 'Windows']
+  'require':
+    'frameworks/qqc2-desktop-style': '@stable'
+
+- 'on': ['Linux', 'FreeBSD']
+  'require':
+    'frameworks/kdbusaddons': '@stable'
+    'frameworks/kwindowsystem': '@stable'
+    'frameworks/kio': '@stable'
+
+Options:
+  require-passing-tests-on: [ '@all' ]
