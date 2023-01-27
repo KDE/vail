@@ -14,10 +14,6 @@ Controller::Controller(QObject *parent)
 {
 }
 
-Controller::~Controller()
-{
-}
-
 void Controller::restoreWindowGeometry(QQuickWindow *window)
 {
     KConfig dataResource(QStringLiteral("data"), KConfig::SimpleConfig, QStandardPaths::AppDataLocation);
@@ -35,7 +31,7 @@ void Controller::saveWindowGeometry(QQuickWindow *window)
     dataResource.sync();
 }
 
-void Controller::translate(QString message)
+void Controller::translate(const QString &message)
 {
     QStringList words = message.split(QStringLiteral(" "));
     QString translatedMessage;
@@ -58,12 +54,10 @@ void Controller::translate(QString message)
         }
     }
 
-
-
     Q_EMIT translation(translatedMessage);
 }
 
-QString Controller::getMorseFromCharacter(QString character)
+QString Controller::getMorseFromCharacter(const QString &character)
 {
     QString morse;
 

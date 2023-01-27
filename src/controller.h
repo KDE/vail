@@ -13,15 +13,16 @@ class Controller : public QObject
 
 public:
     explicit Controller(QObject* parent = nullptr);
-    ~Controller() override;
 
     Q_INVOKABLE void restoreWindowGeometry(QQuickWindow* window);
     Q_INVOKABLE void saveWindowGeometry(QQuickWindow* window);
 
-    Q_INVOKABLE void translate(QString message);
-    Q_SIGNAL void translation(QString translated);
+    Q_INVOKABLE void translate(const QString &message);
 
-    QString getMorseFromCharacter(QString character);
+    QString getMorseFromCharacter(const QString &character);
+
+Q_SIGNALS:
+    void translation(const QString &translated);
 
 private:
 };
