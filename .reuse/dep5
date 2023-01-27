@@ -6,7 +6,7 @@ Files: .gitlab/vail.png logo.png org.kde.vail.svg
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: LGPL-2.0-or-later
 
-Files: org.kde.vail.json
+Files: .flatpak-manifest.json
 Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 License: CC0-1.0
 
