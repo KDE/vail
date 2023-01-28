@@ -4,6 +4,7 @@
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     app.cpp
+    translator.cpp
     resources.qrc)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
