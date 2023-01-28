@@ -67,7 +67,7 @@ Kirigami.ApplicationWindow {
                     wrapMode: Text.Wrap
 
                     onTextChanged: {
-                        Controller.translate(text)
+                        Translator.translate(text)
                     }
                 }
             }
@@ -95,7 +95,7 @@ Kirigami.ApplicationWindow {
                     wrapMode: Text.Wrap
 
                     Connections {
-                        target: Controller
+                        target: Translator
 
                         function onTranslation(translation) {
                             morseTextarea.text = translation

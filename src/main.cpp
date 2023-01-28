@@ -25,6 +25,7 @@ constexpr auto APPLICATION_ID = "org.kde.vail";
 
 #include "version-vail.h"
 #include "app.h"
+#include "translator.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -82,6 +83,9 @@ int main(int argc, char *argv[])
 
     App application;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
+
+    Translator translator;
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Translator", &translator);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
