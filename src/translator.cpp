@@ -48,6 +48,23 @@ Translator::Translator(QObject *parent)
     m_morseTable[QChar::fromLatin1('8')] = QString::fromLatin1("- - - . .");
     m_morseTable[QChar::fromLatin1('9')] = QString::fromLatin1("- - - - .");
     m_morseTable[QChar::fromLatin1('0')] = QString::fromLatin1("- - - - -");
+
+    m_morseTable[QChar::fromLatin1('&')] = QString::fromLatin1(". - . . .");
+    m_morseTable[QChar::fromLatin1('\'')] = QString::fromLatin1(". - - - - .");
+    m_morseTable[QChar::fromLatin1('@')] = QString::fromLatin1(". - - . - .");
+    m_morseTable[QChar::fromLatin1(')')] = QString::fromLatin1("- . - - . -");
+    m_morseTable[QChar::fromLatin1('(')] = QString::fromLatin1("- . - - .");
+    m_morseTable[QChar::fromLatin1(':')] = QString::fromLatin1("- - - . . .");
+    m_morseTable[QChar::fromLatin1(',')] = QString::fromLatin1("- - . . - -");
+    m_morseTable[QChar::fromLatin1('=')] = QString::fromLatin1("- . . . -");
+    m_morseTable[QChar::fromLatin1('!')] = QString::fromLatin1("- . - . - -");
+    m_morseTable[QChar::fromLatin1('.')] = QString::fromLatin1(". - . - . -");
+    m_morseTable[QChar::fromLatin1('-')] = QString::fromLatin1("- . . . .-");
+    m_morseTable[QChar::fromLatin1('x')] = QString::fromLatin1("- . . -");
+    m_morseTable[QChar::fromLatin1('+')] = QString::fromLatin1(". - . - .");
+    m_morseTable[QChar::fromLatin1('"')] = QString::fromLatin1(". - . . - .");
+    m_morseTable[QChar::fromLatin1('?')] = QString::fromLatin1(". . - - . .");
+    m_morseTable[QChar::fromLatin1('/')] = QString::fromLatin1("- . . - .");
 }
 
 void Translator::translate(const QString &message)
