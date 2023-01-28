@@ -23,4 +23,8 @@ if(TARGET KF5::DBusAddons)
     target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
 endif()
 
+if(NOT ANDROID)
+    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt::Widgets)
+endif()
+
 install(TARGETS ${CMAKE_PROJECT_NAME} ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
