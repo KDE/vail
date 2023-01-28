@@ -69,11 +69,11 @@ Translator::Translator(QObject *parent)
 
 void Translator::translate(const QString &message)
 {
-    QStringList words = message.toLower().split(QStringLiteral(" "));
+    const QStringList words = message.toLower().split(QStringLiteral(" "));
     QString morse;
 
-    for (QString word : words) {
-        for (QChar character : word) {
+    for (const QString &word : words) {
+        for (const QChar &character : word) {
             morse.append(m_morseTable.value(character));
 
             if (word.indexOf(character) == word.length()) {
