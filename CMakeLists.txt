@@ -40,7 +40,7 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core G
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n)
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
-    find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF5_MIN_VERSION} REQUIRED)
+    find_package(KF5DBusAddons ${KF5_MIN_VERSION} REQUIRED)
 endif()
 
 add_definitions(-DQT_NO_FOREACH -DQT_NO_KEYWORDS)
