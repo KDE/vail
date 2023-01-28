@@ -3,7 +3,7 @@
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    controller.cpp
+    app.cpp
     resources.qrc)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}

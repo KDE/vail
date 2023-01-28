@@ -24,7 +24,7 @@
 constexpr auto APPLICATION_ID = "org.kde.vail";
 
 #include "version-vail.h"
-#include "controller.h"
+#include "app.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -80,8 +80,8 @@ int main(int argc, char *argv[])
         return engine->toScriptValue(KAboutData::applicationData());
     });
 
-    Controller controller;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
+    App application;
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
         auto view = qobject_cast<QQuickWindow *>(obj);
         if (view) {
             if (view->isVisible()) {
-                controller.restoreWindowGeometry(view);
+                application.restoreWindowGeometry(view);
             }
             break;
         }
