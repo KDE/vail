@@ -6,17 +6,47 @@
   -->
   <id>org.kde.vail</id>
   <name>Vail</name>
+  <name xml:lang="ca">Vail</name>
+  <name xml:lang="eu">Vail</name>
+  <name xml:lang="nl">Vail</name>
+  <name xml:lang="tr">Vali</name>
+  <name xml:lang="uk">Vail</name>
+  <name xml:lang="x-test">xxVailxx</name>
   <summary>Communicate using Morse</summary>
+  <summary xml:lang="ca">Comunicació usant el Morse</summary>
+  <summary xml:lang="eu">Komunikatu Morse erabiliz</summary>
+  <summary xml:lang="nl">Communiceren met Morse</summary>
+  <summary xml:lang="tr">Morse kullanarak iletişim kurun</summary>
+  <summary xml:lang="uk">Спілкування азбукою Морзе</summary>
+  <summary xml:lang="x-test">xxCommunicate using Morsexx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Vail let's you convert messages to Morse and copy them to the clipboard.</p>
+    <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
+    <p xml:lang="eu">«Vail»ek mezuak Morse bihurtu eta haiek arbelera kopiatzen uzten dizu.</p>
+    <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
+    <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
+    <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
+    <p xml:lang="x-test">xxVail let's you convert messages to Morse and copy them to the clipboard.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
       <image>https://invent.kde.org/fhek/vail/-/raw/master/.gitlab/vail.png</image>
       <caption>Main View</caption>
+      <caption xml:lang="ca">Vista principal</caption>
+      <caption xml:lang="eu">Ikuspegi nagusia</caption>
+      <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="tr">Ana Görünüm</caption>
+      <caption xml:lang="uk">Головне вікно</caption>
+      <caption xml:lang="x-test">xxMain Viewxx</caption>
     </screenshot>
   </screenshots>
   <launchable type="desktop-id">org.kde.vail.desktop</launchable>
