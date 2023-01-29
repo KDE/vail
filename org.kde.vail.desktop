@@ -3,7 +3,19 @@
 
 [Desktop Entry]
 Name=Vail
+Name[ca]=Vail
+Name[eu]=Vail
+Name[nl]=Vail
+Name[tr]=Vail
+Name[uk]=Vail
+Name[x-test]=xxVailxx
 Comment=Communicate using Morse
+Comment[ca]=Comunicació usant el Morse
+Comment[eu]=Komunikatu Morse erabiliz
+Comment[nl]=Communiceren met Morse
+Comment[tr]=Morse kullanarak iletişim kurun
+Comment[uk]=Спілкування азбукою Морзе
+Comment[x-test]=xxCommunicate using Morsexx
 Exec=vail
 Icon=org.kde.vail
 Type=Application
