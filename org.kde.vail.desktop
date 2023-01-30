@@ -4,15 +4,23 @@
 [Desktop Entry]
 Name=Vail
 Name[ca]=Vail
+Name[es]=Vail
 Name[eu]=Vail
+Name[fr]=Vail
+Name[it]=Vail
 Name[nl]=Vail
+Name[sl]=Vail
 Name[tr]=Vail
 Name[uk]=Vail
 Name[x-test]=xxVailxx
 Comment=Communicate using Morse
 Comment[ca]=Comunicació usant el Morse
+Comment[es]=Comunicación mediante código morse
 Comment[eu]=Komunikatu Morse erabiliz
+Comment[fr]=Communiquer en utilisant le code Morse
+Comment[it]=Comunica usando Morse
 Comment[nl]=Communiceren met Morse
+Comment[sl]=Komuniciraj z Morsejevo kodo
 Comment[tr]=Morse kullanarak iletişim kurun
 Comment[uk]=Спілкування азбукою Морзе
 Comment[x-test]=xxCommunicate using Morsexx
