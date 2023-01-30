@@ -7,15 +7,23 @@
   <id>org.kde.vail</id>
   <name>Vail</name>
   <name xml:lang="ca">Vail</name>
+  <name xml:lang="es">Vail</name>
   <name xml:lang="eu">Vail</name>
+  <name xml:lang="fr">Vail</name>
+  <name xml:lang="it">Vail</name>
   <name xml:lang="nl">Vail</name>
+  <name xml:lang="sl">Vail</name>
   <name xml:lang="tr">Vali</name>
   <name xml:lang="uk">Vail</name>
   <name xml:lang="x-test">xxVailxx</name>
   <summary>Communicate using Morse</summary>
   <summary xml:lang="ca">Comunicació usant el Morse</summary>
+  <summary xml:lang="es">Comunicación mediante código morse</summary>
   <summary xml:lang="eu">Komunikatu Morse erabiliz</summary>
+  <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
+  <summary xml:lang="it">Comunica usando Morse</summary>
   <summary xml:lang="nl">Communiceren met Morse</summary>
+  <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
   <summary xml:lang="tr">Morse kullanarak iletişim kurun</summary>
   <summary xml:lang="uk">Спілкування азбукою Морзе</summary>
   <summary xml:lang="x-test">xxCommunicate using Morsexx</summary>
@@ -23,16 +31,24 @@
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sl">Skupnost KDE,  Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Vail let's you convert messages to Morse and copy them to the clipboard.</p>
     <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
+    <p xml:lang="es">Vail se permite convertir mensajes a morse y copiarlos en el portapapeles.</p>
     <p xml:lang="eu">«Vail»ek mezuak Morse bihurtu eta haiek arbelera kopiatzen uzten dizu.</p>
+    <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
+    <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
     <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
+    <p xml:lang="sl">Vail spremeni sporočila v Morsejev kod in ij kopira na odložišče.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
     <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
     <p xml:lang="x-test">xxVail let's you convert messages to Morse and copy them to the clipboard.xx</p>
@@ -42,8 +58,12 @@
       <image>https://invent.kde.org/fhek/vail/-/raw/master/.gitlab/vail.png</image>
       <caption>Main View</caption>
       <caption xml:lang="ca">Vista principal</caption>
+      <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
+      <caption xml:lang="fr">Vue principale</caption>
+      <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
