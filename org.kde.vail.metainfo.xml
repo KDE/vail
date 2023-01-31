@@ -11,6 +11,7 @@
   <name xml:lang="eu">Vail</name>
   <name xml:lang="fr">Vail</name>
   <name xml:lang="it">Vail</name>
+  <name xml:lang="ka">Vail</name>
   <name xml:lang="nl">Vail</name>
   <name xml:lang="sl">Vail</name>
   <name xml:lang="tr">Vali</name>
@@ -22,6 +23,7 @@
   <summary xml:lang="eu">Komunikatu Morse erabiliz</summary>
   <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
   <summary xml:lang="it">Comunica usando Morse</summary>
+  <summary xml:lang="ka">იქონიეთ ურთიერთობა მორზეს ანბანით</summary>
   <summary xml:lang="nl">Communiceren met Morse</summary>
   <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
   <summary xml:lang="tr">Morse kullanarak iletişim kurun</summary>
@@ -35,6 +37,7 @@
   <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE,  Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
@@ -47,6 +50,7 @@
     <p xml:lang="eu">«Vail»ek mezuak Morse bihurtu eta haiek arbelera kopiatzen uzten dizu.</p>
     <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
+    <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
     <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
     <p xml:lang="sl">Vail spremeni sporočila v Morsejev kod in ij kopira na odložišče.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
@@ -62,6 +66,7 @@
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="it">Vista principale</caption>
+      <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
