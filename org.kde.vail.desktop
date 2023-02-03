@@ -4,6 +4,7 @@
 [Desktop Entry]
 Name=Vail
 Name[ca]=Vail
+Name[ca@valencia]=Vail
 Name[es]=Vail
 Name[eu]=Vail
 Name[fr]=Vail
@@ -16,6 +17,7 @@ Name[uk]=Vail
 Name[x-test]=xxVailxx
 Comment=Communicate using Morse
 Comment[ca]=Comunicació usant el Morse
+Comment[ca@valencia]=Comunicació utilitzant Morse
 Comment[es]=Comunicación mediante código morse
 Comment[eu]=Komunikatu Morse erabiliz
 Comment[fr]=Communiquer en utilisant le code Morse
