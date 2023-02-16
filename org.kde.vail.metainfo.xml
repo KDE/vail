@@ -15,6 +15,7 @@
   <name xml:lang="it">Vail</name>
   <name xml:lang="ka">Vail</name>
   <name xml:lang="nl">Vail</name>
+  <name xml:lang="pt">Vail</name>
   <name xml:lang="sl">Vail</name>
   <name xml:lang="tr">Vali</name>
   <name xml:lang="uk">Vail</name>
@@ -29,6 +30,7 @@
   <summary xml:lang="it">Comunica usando Morse</summary>
   <summary xml:lang="ka">იქონიეთ ურთიერთობა მორზეს ანბანით</summary>
   <summary xml:lang="nl">Communiceren met Morse</summary>
+  <summary xml:lang="pt">Comunicação por código Morse</summary>
   <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
   <summary xml:lang="tr">Morse kullanarak iletişim kurun</summary>
   <summary xml:lang="uk">Спілкування азбукою Морзе</summary>
@@ -44,6 +46,7 @@
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE,  Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
@@ -58,6 +61,7 @@
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
     <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
     <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
+    <p xml:lang="pt">O Vail permite-lhe converter as mensagens para código Morse e copiá-las para a área de transferência.</p>
     <p xml:lang="sl">Vail spremeni sporočila v Morsejev kod in ij kopira na odložišče.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
     <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
@@ -76,6 +80,7 @@
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="pt">Janela Principal</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
