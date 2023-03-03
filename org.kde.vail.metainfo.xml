@@ -9,6 +9,7 @@
   <name xml:lang="ca">Vail</name>
   <name xml:lang="ca-valencia">Vail</name>
   <name xml:lang="cs">Vail</name>
+  <name xml:lang="en-GB">Vail</name>
   <name xml:lang="es">Vail</name>
   <name xml:lang="eu">Vail</name>
   <name xml:lang="fr">Vail</name>
@@ -24,6 +25,7 @@
   <summary xml:lang="ca">Comunicació usant el Morse</summary>
   <summary xml:lang="ca-valencia">Comunicació utilitzant Morse</summary>
   <summary xml:lang="cs">Komunikujte pomocí Morseovky</summary>
+  <summary xml:lang="en-GB">Communicate using Morse</summary>
   <summary xml:lang="es">Comunicación mediante código morse</summary>
   <summary xml:lang="eu">Komunikatu Morse erabiliz</summary>
   <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
@@ -40,6 +42,7 @@
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
@@ -55,6 +58,7 @@
     <p>Vail let's you convert messages to Morse and copy them to the clipboard.</p>
     <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
     <p xml:lang="ca-valencia">Vail permet convertir missatges a Morse i copiar-los al porta-retalls.</p>
+    <p xml:lang="en-GB">Vail allows you convert messages to Morse and copy them to the clipboard.</p>
     <p xml:lang="es">Vail se permite convertir mensajes a morse y copiarlos en el portapapeles.</p>
     <p xml:lang="eu">«Vail»ek mezuak Morse bihurtu eta haiek arbelera kopiatzen uzten dizu.</p>
     <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
@@ -74,6 +78,7 @@
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
+      <caption xml:lang="en-GB">Main View</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
       <caption xml:lang="fr">Vue principale</caption>
