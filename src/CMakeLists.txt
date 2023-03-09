@@ -13,13 +13,13 @@ PRIVATE
     Qt::Quick
     Qt::QuickControls2
     Qt::Svg
-    KF5::I18n
-    KF5::CoreAddons
-    KF5::ConfigCore
-    KF5::ConfigGui)
+    KF${QT_MAJOR_VERSION}::I18n
+    KF${QT_MAJOR_VERSION}::CoreAddons
+    KF${QT_MAJOR_VERSION}::ConfigCore
+    KF${QT_MAJOR_VERSION}::ConfigGui)
 
-if(TARGET KF5::DBusAddons)
-    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF5::DBusAddons)
+if(TARGET KF${QT_MAJOR_VERSION}::DBusAddons)
+    target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE KF${QT_MAJOR_VERSION}::DBusAddons)
     target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE -DHAVE_KDBUSADDONS)
 endif()
 
