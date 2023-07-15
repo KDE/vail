@@ -69,7 +69,7 @@
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
-    <p>Vail let's you convert messages to Morse and copy them to the clipboard.</p>
+    <p>Vail lets you convert messages to Morse and copy them to the clipboard.</p>
     <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
     <p xml:lang="ca-valencia">Vail permet convertir missatges a Morse i copiar-los al porta-retalls.</p>
     <p xml:lang="de">Mit Veil können Sie Nachrichten in Morse-Code konvertieren und in die Zwischenablage kopieren.</p>
@@ -87,7 +87,7 @@
     <p xml:lang="sl">Vail spremeni sporočila v Morsejev kod in ij kopira na odložišče.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
     <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
-    <p xml:lang="x-test">xxVail let's you convert messages to Morse and copy them to the clipboard.xx</p>
+    <p xml:lang="x-test">xxVail lets you convert messages to Morse and copy them to the clipboard.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
