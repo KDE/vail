@@ -11,6 +11,7 @@
   <name xml:lang="cs">Vail</name>
   <name xml:lang="de">Vail</name>
   <name xml:lang="en-GB">Vail</name>
+  <name xml:lang="eo">Vail</name>
   <name xml:lang="es">Vail</name>
   <name xml:lang="eu">Vail</name>
   <name xml:lang="fi">Vail</name>
@@ -32,6 +33,7 @@
   <summary xml:lang="cs">Komunikujte pomocí Morseovky</summary>
   <summary xml:lang="de">Per Morse-Code kommunizieren</summary>
   <summary xml:lang="en-GB">Communicate using Morse</summary>
+  <summary xml:lang="eo">Komuniku uzante Morse</summary>
   <summary xml:lang="es">Comunicación mediante código morse</summary>
   <summary xml:lang="eu">Komunikatu Morse erabiliz</summary>
   <summary xml:lang="fi">Viesti morsekoodilla</summary>
@@ -53,6 +55,7 @@
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="eo">KDE-Komunumo, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="eu">KDE Komunitatea, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
@@ -70,24 +73,6 @@
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Vail lets you convert messages to Morse and copy them to the clipboard.</p>
-    <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
-    <p xml:lang="ca-valencia">Vail permet convertir missatges a Morse i copiar-los al porta-retalls.</p>
-    <p xml:lang="de">Mit Veil können Sie Nachrichten in Morse-Code konvertieren und in die Zwischenablage kopieren.</p>
-    <p xml:lang="en-GB">Vail allows you convert messages to Morse and copy them to the clipboard.</p>
-    <p xml:lang="es">Vail se permite convertir mensajes a morse y copiarlos en el portapapeles.</p>
-    <p xml:lang="eu">«Vail»ek mezuak Morse bihurtu eta haiek arbelera kopiatzen uzten dizu.</p>
-    <p xml:lang="fi">Vaililla voi muuttaa viestinsä morsekoodiksi ja kopioida ne leikepöydälle.</p>
-    <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
-    <p xml:lang="gl">Vail permíteche converter as túas mensaxes en morse e copialas no portapapeis.</p>
-    <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
-    <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
-    <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
-    <p xml:lang="nn">Med Vail kan du gjera meldingar om til morse­alfabetet og kopiera dei til utklippstavla.</p>
-    <p xml:lang="pt">O Vail permite-lhe converter as mensagens para código Morse e copiá-las para a área de transferência.</p>
-    <p xml:lang="sl">Vail spremeni sporočila v Morsejev kod in ij kopira na odložišče.</p>
-    <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
-    <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
-    <p xml:lang="x-test">xxVail lets you convert messages to Morse and copy them to the clipboard.xx</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -98,6 +83,7 @@
       <caption xml:lang="cs">Hlavní pohled</caption>
       <caption xml:lang="de">Hauptansicht</caption>
       <caption xml:lang="en-GB">Main View</caption>
+      <caption xml:lang="eo">Ĉefa Vido</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="eu">Ikuspegi nagusia</caption>
       <caption xml:lang="fi">Päänäkymä</caption>
