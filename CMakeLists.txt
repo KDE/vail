@@ -47,6 +47,8 @@ if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
     find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
+find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.11 REQUIRED)
+
 add_definitions(-DQT_NO_FOREACH -DQT_NO_KEYWORDS)
 
 add_subdirectory(src)
