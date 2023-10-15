@@ -22,6 +22,7 @@
   <name xml:lang="ko">Vail</name>
   <name xml:lang="nl">Vail</name>
   <name xml:lang="nn">Vail</name>
+  <name xml:lang="pl">Vail</name>
   <name xml:lang="pt">Vail</name>
   <name xml:lang="pt-BR">Vail</name>
   <name xml:lang="sk">Vail</name>
@@ -47,6 +48,7 @@
   <summary xml:lang="ko">모스 부호 통신</summary>
   <summary xml:lang="nl">Communiceren met Morse</summary>
   <summary xml:lang="nn">Kommuniser med morsealfabetet</summary>
+  <summary xml:lang="pl">Porozumiewaj się kodem Morse'a</summary>
   <summary xml:lang="pt">Comunicação por código Morse</summary>
   <summary xml:lang="pt-BR">Comunique-se usando código Morse</summary>
   <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
@@ -72,6 +74,7 @@
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
@@ -97,6 +100,7 @@
     <p xml:lang="ko">Vail을 사용하여 메시지를 모스 부호로 변환할 수 있으며 클립보드에 복사할 수 있습니다.</p>
     <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
     <p xml:lang="nn">Med Vail kan du gjera meldingar om til morse­alfabetet og kopiera dei til utklippstavla.</p>
+    <p xml:lang="pl">Vail umożliwia przekształcanie wiadomości na kod Morse'a i kopiowanie ich do schowka.</p>
     <p xml:lang="pt-BR">Vail permite converter mensagens para código Morse e copiá-las para a área de transferência.</p>
     <p xml:lang="sl">Vail omogoča pretvorbe sporočil v Morsejev kod in jih kopira na odložišče.</p>
     <p xml:lang="sv">Vail låter dig kopiera meddelanden till Morsekod och kopiera dem till klippbordet.</p>
@@ -124,6 +128,7 @@
       <caption xml:lang="ko">주 보기</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="nn">Hovudvising</caption>
+      <caption xml:lang="pl">Widok główny</caption>
       <caption xml:lang="pt">Janela Principal</caption>
       <caption xml:lang="pt-BR">Visualização principal</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
