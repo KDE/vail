@@ -8,11 +8,8 @@ string(TOUPPER ${CMAKE_PROJECT_NAME} CMAKE_PROJECT_NAME_UPPERCASE)
 
 include(FeatureSummary)
 
-set(QT5_MIN_VERSION 5.15.2)
-set(KF_MIN_VERSION 5.102)
-if (ANDROID)
-    set(QT_MIN_VERSION "5.15.8")
-endif()
+set(QT_MIN_VERSION 6.5.0)
+set(KF_MIN_VERSION 5.240)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -36,18 +33,18 @@ ecm_setup_version(${PROJECT_VERSION}
     VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/version-${CMAKE_PROJECT_NAME}.h"
 )
 
-find_package(Qt${QT_MAJOR_VERSION} ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
-find_package(KF${QT_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Config I18n)
 
 if (NOT ANDROID)
-    find_package(Qt${QT_MAJOR_VERSION}Widgets REQUIRED)
+    find_package(Qt6Widgets REQUIRED)
 endif()
 
 if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
-    find_package(KF${QT_MAJOR_VERSION}DBusAddons ${KF_MIN_VERSION} REQUIRED)
+    find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
-find_package(KF${QT_MAJOR_VERSION}KirigamiAddons 0.11 REQUIRED)
+find_package(KF6KirigamiAddons 0.11 REQUIRED)
 
 add_definitions(-DQT_NO_FOREACH -DQT_NO_KEYWORDS)
 
