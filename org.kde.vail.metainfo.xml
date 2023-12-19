@@ -17,6 +17,7 @@
   <name xml:lang="fi">Vail</name>
   <name xml:lang="fr">Vail</name>
   <name xml:lang="gl">Vail</name>
+  <name xml:lang="ia">Vail</name>
   <name xml:lang="it">Vail</name>
   <name xml:lang="ka">Vail</name>
   <name xml:lang="ko">Vail</name>
@@ -43,6 +44,7 @@
   <summary xml:lang="fi">Viesti morsekoodilla</summary>
   <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
   <summary xml:lang="gl">Comunícate por morse.</summary>
+  <summary xml:lang="ia">Communica usante Morse</summary>
   <summary xml:lang="it">Comunica usando Morse</summary>
   <summary xml:lang="ka">იქონიეთ ურთიერთობა მორზეს ანბანით</summary>
   <summary xml:lang="ko">모스 부호 통신</summary>
@@ -69,6 +71,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ia">Communitate d KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
@@ -95,6 +98,7 @@
     <p xml:lang="fi">Vaililla voi muuttaa viestinsä morsekoodiksi ja kopioida ne leikepöydälle.</p>
     <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
     <p xml:lang="gl">Vail permíteche converter as túas mensaxes en morse e copialas no portapapeis.</p>
+    <p xml:lang="ia">Vail te permitte converter messages a Morse e copia los in le area de transferentia.</p>
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
     <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
     <p xml:lang="ko">Vail을 사용하여 메시지를 모스 부호로 변환할 수 있으며 클립보드에 복사할 수 있습니다.</p>
@@ -123,6 +127,7 @@
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="gl">Vista principal.</caption>
+      <caption xml:lang="ia">Vista principal</caption>
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
