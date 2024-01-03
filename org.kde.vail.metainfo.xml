@@ -17,6 +17,7 @@
   <name xml:lang="fi">Vail</name>
   <name xml:lang="fr">Vail</name>
   <name xml:lang="gl">Vail</name>
+  <name xml:lang="hu">Vail</name>
   <name xml:lang="ia">Vail</name>
   <name xml:lang="it">Vail</name>
   <name xml:lang="ka">Vail</name>
@@ -46,6 +47,7 @@
   <summary xml:lang="fi">Viesti morsekoodilla</summary>
   <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
   <summary xml:lang="gl">Comunícate por morse.</summary>
+  <summary xml:lang="hu">Kommunikáció morzekóddal</summary>
   <summary xml:lang="ia">Communica usante Morse</summary>
   <summary xml:lang="it">Comunica usando Morse</summary>
   <summary xml:lang="ka">იქონიეთ ურთიერთობა მორზეს ანბანით</summary>
@@ -75,6 +77,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="hu">KDE Közösség, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ia">Communitate d KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
@@ -104,6 +107,7 @@
     <p xml:lang="fi">Vaililla voi muuttaa viestinsä morsekoodiksi ja kopioida ne leikepöydälle.</p>
     <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
     <p xml:lang="gl">Vail permíteche converter as túas mensaxes en morse e copialas no portapapeis.</p>
+    <p xml:lang="hu">A Vail lehetővé teszi üzenetek morzekóddá alakítását és vágólapra másolását.</p>
     <p xml:lang="ia">Vail te permitte converter messages a Morse e copia los in le area de transferentia.</p>
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
     <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
@@ -135,6 +139,7 @@
       <caption xml:lang="fi">Päänäkymä</caption>
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="gl">Vista principal.</caption>
+      <caption xml:lang="hu">Fő nézet</caption>
       <caption xml:lang="ia">Vista principal</caption>
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
