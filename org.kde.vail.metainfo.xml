@@ -6,6 +6,7 @@
   -->
   <id>org.kde.vail</id>
   <name>Vail</name>
+  <name xml:lang="ar">فايل</name>
   <name xml:lang="ca">Vail</name>
   <name xml:lang="ca-valencia">Vail</name>
   <name xml:lang="cs">Vail</name>
@@ -37,6 +38,7 @@
   <name xml:lang="x-test">xxVailxx</name>
   <name xml:lang="zh-TW">Vail</name>
   <summary>Communicate using Morse</summary>
+  <summary xml:lang="ar">تواصل عن طريق شفرة مورس</summary>
   <summary xml:lang="ca">Comunicació usant el Morse</summary>
   <summary xml:lang="ca-valencia">Comunicació utilitzant Morse</summary>
   <summary xml:lang="cs">Komunikujte pomocí Morseovky</summary>
@@ -69,6 +71,7 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ar">مجتمع كيدي، فيليبي كينوشيتا</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
@@ -100,6 +103,7 @@
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Vail lets you convert messages to Morse and copy them to the clipboard.</p>
+    <p xml:lang="ar">يتيح لك فايل تحويل الرسائل إلى شفرة مورس ونسخها إلى الحافظة.</p>
     <p xml:lang="ca">El Vail permet convertir missatges al Morse i copiar-los al porta-retalls.</p>
     <p xml:lang="ca-valencia">Vail permet convertir missatges a Morse i copiar-los a dins del porta-retalls.</p>
     <p xml:lang="cs">Vail vám umožní převést zprávy do Morseovy abecedy a zkopírovat je do schránky.</p>
@@ -132,6 +136,7 @@
     <screenshot type="default">
       <image>https://invent.kde.org/fhek/vail/-/raw/master/.gitlab/vail.png</image>
       <caption>Main View</caption>
+      <caption xml:lang="ar">النافذة الرئيسة</caption>
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="cs">Hlavní pohled</caption>
