@@ -21,11 +21,8 @@
 #include <KDBusService>
 #endif
 
-constexpr auto APPLICATION_ID = "org.kde.vail";
-
 #include "version-vail.h"
 #include "app.h"
-#include "translator.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
