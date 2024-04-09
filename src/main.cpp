@@ -73,10 +73,6 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    qmlRegisterSingletonType(APPLICATION_ID, 1, 0, "About", [](QQmlEngine *engine, QJSEngine *) -> QJSValue {
-        return engine->toScriptValue(KAboutData::applicationData());
-    });
-
     App application;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
 

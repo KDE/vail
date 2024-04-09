@@ -44,7 +44,7 @@ if (NOT ANDROID AND NOT WIN32 AND NOT APPLE)
     find_package(KF6DBusAddons ${KF_MIN_VERSION} REQUIRED)
 endif()
 
-find_package(KF6KirigamiAddons 0.11 REQUIRED)
+find_package(KF6KirigamiAddons 1.1.0 REQUIRED)
 
 add_definitions(-DQT_NO_FOREACH -DQT_NO_KEYWORDS)
 
