@@ -5,12 +5,13 @@
 
 #include <QHash>
 #include <QObject>
-
-class QQuickWindow;
+#include <QtQml>
 
 class Translator : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     explicit Translator(QObject* parent = nullptr);

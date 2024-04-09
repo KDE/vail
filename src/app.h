@@ -3,13 +3,14 @@
 
 #pragma once
 
-#include <QObject>
-
-class QQuickWindow;
+#include <QQuickWindow>
+#include <QtQml>
 
 class App : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     explicit App(QObject* parent = nullptr);

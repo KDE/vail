@@ -73,14 +73,8 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    App application;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
-
-    Translator translator;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Translator", &translator);
-
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.loadFromModule(QStringLiteral("org.kde.vail"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
@@ -96,7 +90,8 @@ int main(int argc, char *argv[])
         auto view = qobject_cast<QQuickWindow *>(obj);
         if (view) {
             if (view->isVisible()) {
-                application.restoreWindowGeometry(view);
+                auto app = engine.singletonInstance<App *>("org.kde.vail", "App");
+                app->restoreWindowGeometry(view);
             }
             break;
         }

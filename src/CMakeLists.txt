@@ -4,8 +4,19 @@
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
     app.cpp
-    translator.cpp
-    resources.qrc)
+    translator.cpp)
+
+ecm_add_qml_module(${CMAKE_PROJECT_NAME}
+        URI org.kde.vail
+        VERSION 1.0
+        DEPENDENCIES
+        "QtQuick.Controls"
+        GENERATE_PLUGIN_SOURCE)
+qt_target_qml_sources(${CMAKE_PROJECT_NAME}
+        QML_FILES
+        ui/GlobalMenu.qml
+        ui/Main.qml
+        ui/PageHeader.qml)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
 PRIVATE
