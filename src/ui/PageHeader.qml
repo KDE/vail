@@ -19,6 +19,7 @@ RowLayout {
             text: i18n("Copy Morse to Clipboard")
             icon.name: "edit-copy"
             shortcut: StandardKey.Copy
+            enabled: morseTextarea.text.length > 0
             onTriggered: {
                 morseTextarea.selectAll()
                 morseTextarea.copy()
