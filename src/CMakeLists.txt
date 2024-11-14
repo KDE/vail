@@ -3,7 +3,6 @@
 
 add_executable(${CMAKE_PROJECT_NAME}
     main.cpp
-    app.cpp
     translator.cpp)
 
 ecm_add_qml_module(${CMAKE_PROJECT_NAME}

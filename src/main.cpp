@@ -22,7 +22,6 @@
 #endif
 
 #include "version-vail.h"
-#include "app.h"
 
 #ifdef Q_OS_ANDROID
 Q_DECL_EXPORT
@@ -80,19 +79,6 @@ int main(int argc, char *argv[])
 #ifdef HAVE_KDBUSADDONS
     KDBusService service(KDBusService::Unique);
 #endif
-
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                auto app = engine.singletonInstance<App *>("org.kde.vail", "App");
-                app->restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
 
     return app.exec();
 }
