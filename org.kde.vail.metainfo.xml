@@ -25,6 +25,7 @@
   <name xml:lang="it">Vail</name>
   <name xml:lang="ka">Vail</name>
   <name xml:lang="ko">Vail</name>
+  <name xml:lang="lt">Vail</name>
   <name xml:lang="lv">Vail</name>
   <name xml:lang="nl">Vail</name>
   <name xml:lang="nn">Vail</name>
@@ -61,6 +62,7 @@
   <summary xml:lang="it">Comunica usando Morse</summary>
   <summary xml:lang="ka">იქონიეთ ურთიერთობა მორზეს ანბანით</summary>
   <summary xml:lang="ko">모스 부호 통신</summary>
+  <summary xml:lang="lt">Bendrauti naudojant Morzės abėcėlę</summary>
   <summary xml:lang="lv">Komunicējiet, izmantojot Morzes kodu</summary>
   <summary xml:lang="nl">Communiceren met Morse</summary>
   <summary xml:lang="nn">Kommuniser med morsealfabetet</summary>
@@ -97,6 +99,7 @@
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="lt">KDE bendruomenė, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="lv">KDE kopiena, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
@@ -134,6 +137,7 @@
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
     <p xml:lang="ka">Vail-ი საშუალებას გაძლევთ, შეტყობინებები მორზეში გადაიყვანოთ და ბუფერში დააკოპიროთ.</p>
     <p xml:lang="ko">Vail을 사용하여 메시지를 모스 부호로 변환할 수 있으며 클립보드에 복사할 수 있습니다.</p>
+    <p xml:lang="lt">Vail jums leidžia konvertuoti žinutes į Morzės abėcėlę ir kopijuoti jas į iškarpinę.</p>
     <p xml:lang="lv">„Vail“ palīdz pārveidot ziņojumus Morzes kodā un tos iekopē starpliktuvē.</p>
     <p xml:lang="nl">Vail laat u berichten naar Morse converteren en ze naar het klembord kopiëren.</p>
     <p xml:lang="nn">Med Vail kan du gjera meldingar om til morse­alfabetet og kopiera dei til utklippstavla.</p>
@@ -172,6 +176,7 @@
       <caption xml:lang="it">Vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
+      <caption xml:lang="lt">Pagrindinis rodinys</caption>
       <caption xml:lang="lv">Galvenais skats</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="nn">Hovudvising</caption>
