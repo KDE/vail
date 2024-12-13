@@ -16,6 +16,7 @@
 
 #include <KAboutData>
 #include <KLocalizedContext>
+#include <KLocalizedQmlContext>
 #include <KLocalizedString>
 #ifdef HAVE_KDBUSADDONS
 #include <KDBusService>
@@ -69,7 +70,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
     engine.loadFromModule(QStringLiteral("org.kde.vail"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
