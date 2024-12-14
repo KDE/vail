@@ -35,6 +35,7 @@
   <name xml:lang="pt-BR">Vail</name>
   <name xml:lang="ro">Vail</name>
   <name xml:lang="ru">Vail</name>
+  <name xml:lang="sa">वैल</name>
   <name xml:lang="sk">Vail</name>
   <name xml:lang="sl">Vail</name>
   <name xml:lang="sv">Vail</name>
@@ -72,6 +73,7 @@
   <summary xml:lang="pt-BR">Comunique-se usando código Morse</summary>
   <summary xml:lang="ro">Comunicați prin Morse</summary>
   <summary xml:lang="ru">Общение с использованием азбуки Морзе.</summary>
+  <summary xml:lang="sa">मोर्सस्य उपयोगेन संवादं कुर्वन्तु</summary>
   <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
   <summary xml:lang="sv">Kommunicera med Morsekod</summary>
   <summary xml:lang="tr">Mors Abecesi Dönüştürücüsü</summary>
@@ -109,6 +111,7 @@
   <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ro">Comunitatea KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ru">Сообщество KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE,  Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
@@ -146,6 +149,7 @@
     <p xml:lang="pt-BR">Vail permite converter mensagens para código Morse e copiá-las para a área de transferência.</p>
     <p xml:lang="ro">Vail permite conversia mesajelor în cod morse și copierea acestora în clipboard.</p>
     <p xml:lang="ru">Приложение Vali позволяет преобразовывать сообщения с использованием азбуки Морзе и копировать их в буфер обмена.</p>
+    <p xml:lang="sa">Vail भवन्तं सन्देशान् Morse मध्ये परिवर्त्य क्लिप्बोर्ड् प्रति प्रतिलिखितुं शक्नोति ।</p>
     <p xml:lang="sl">Vail omogoča pretvorbe sporočil v Morsejev kod in jih kopira na odložišče.</p>
     <p xml:lang="sv">Vail låter dig kopiera meddelanden till Morsekod och kopiera dem till klippbordet.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
@@ -186,6 +190,7 @@
       <caption xml:lang="pt-BR">Visualização principal</caption>
       <caption xml:lang="ro">Vizualizarea principală</caption>
       <caption xml:lang="ru">Главное окно</caption>
+      <caption xml:lang="sa">मुख्य दृश्य</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="sv">Huvudvy</caption>
