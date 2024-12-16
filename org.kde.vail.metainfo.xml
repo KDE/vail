@@ -20,6 +20,7 @@
   <name xml:lang="fr">Vail</name>
   <name xml:lang="gl">Vail</name>
   <name xml:lang="he">Vail</name>
+  <name xml:lang="hi">झुकाना</name>
   <name xml:lang="hu">Vail</name>
   <name xml:lang="ia">Vail</name>
   <name xml:lang="it">Vail</name>
@@ -58,6 +59,7 @@
   <summary xml:lang="fr">Communiquer en utilisant le code Morse</summary>
   <summary xml:lang="gl">Comunícate por morse.</summary>
   <summary xml:lang="he">תקשורת באמצעות קוד מורס</summary>
+  <summary xml:lang="hi">मोर्स का उपयोग करके संवाद करें</summary>
   <summary xml:lang="hu">Kommunikáció morzekóddal</summary>
   <summary xml:lang="ia">Communica usante Morse</summary>
   <summary xml:lang="it">Comunica usando Morse</summary>
@@ -96,6 +98,7 @@
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="he">קהילת KDE, פליפה קינושיטה</developer_name>
+  <developer_name xml:lang="hi">केडीई समुदाय, फेलिप किनोशिता</developer_name>
   <developer_name xml:lang="hu">KDE Közösség, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ia">Communitate d KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">KDE Community, Felipe Kinoshita</developer_name>
@@ -135,6 +138,7 @@
     <p xml:lang="fr">Vail vous permet de convertir vos messages en code Morse et de les copier vers le presse-papier.</p>
     <p xml:lang="gl">Vail permíteche converter as túas mensaxes en morse e copialas no portapapeis.</p>
     <p xml:lang="he">Vail מאפשר לך להמיר הודעות לקוד מורס ולהעתיק אותן ללוח הגזירים.</p>
+    <p xml:lang="hi">वैल आपको संदेशों को मोर्स में परिवर्तित करने और उन्हें क्लिपबोर्ड पर कॉपी करने की सुविधा देता है।</p>
     <p xml:lang="hu">A Vail lehetővé teszi üzenetek morzekóddá alakítását és vágólapra másolását.</p>
     <p xml:lang="ia">Vail te permitte converter messages a Morse e copia los in le area de transferentia.</p>
     <p xml:lang="it">Vail ti consente di convertire i messaggi in Morse e di copiarli negli appunti.</p>
@@ -175,6 +179,7 @@
       <caption xml:lang="fr">Vue principale</caption>
       <caption xml:lang="gl">Vista principal.</caption>
       <caption xml:lang="he">תצוגה ראשי</caption>
+      <caption xml:lang="hi">प्रमुख राय</caption>
       <caption xml:lang="hu">Fő nézet</caption>
       <caption xml:lang="ia">Vista principal</caption>
       <caption xml:lang="it">Vista principale</caption>
