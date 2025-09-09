@@ -42,7 +42,6 @@
   <name xml:lang="sv">Vail</name>
   <name xml:lang="tr">Vali</name>
   <name xml:lang="uk">Vail</name>
-  <name xml:lang="x-test">xxVailxx</name>
   <name xml:lang="zh-CN">Vail</name>
   <name xml:lang="zh-TW">Vail</name>
   <summary>Communicate using Morse</summary>
@@ -80,7 +79,6 @@
   <summary xml:lang="sv">Kommunicera med Morsekod</summary>
   <summary xml:lang="tr">Mors Abecesi Dönüştürücüsü</summary>
   <summary xml:lang="uk">Спілкування азбукою Морзе</summary>
-  <summary xml:lang="x-test">xxCommunicate using Morsexx</summary>
   <summary xml:lang="zh-CN">使用摩斯电码通信</summary>
   <summary xml:lang="zh-TW">用摩斯電碼傳遞訊息</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -120,7 +118,6 @@
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
@@ -158,7 +155,6 @@
     <p xml:lang="sv">Vail låter dig kopiera meddelanden till Morsekod och kopiera dem till klippbordet.</p>
     <p xml:lang="tr">Vail, iletileri Morse koduna dönüştürmenize ve onları panoya kopyalamanıza izin verir.</p>
     <p xml:lang="uk">За допомогою Vail ви можете перетворювати повідомлення у шифр Морзе і копіювати результат до буфера обміну даними.</p>
-    <p xml:lang="x-test">xxVail lets you convert messages to Morse and copy them to the clipboard.xx</p>
     <p xml:lang="zh-CN">Vail可以让您将消息转换为摩斯电码并复制到剪贴板。</p>
     <p xml:lang="zh-TW">Vail 讓您將訊息轉為摩斯電碼並將其複製到剪貼簿。</p>
   </description>
@@ -201,7 +197,6 @@
       <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
-      <caption xml:lang="x-test">xxMain Viewxx</caption>
       <caption xml:lang="zh-CN">主视图</caption>
       <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
