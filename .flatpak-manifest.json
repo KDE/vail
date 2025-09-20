@@ -11,7 +11,7 @@
         "--share=ipc",
         "--share=network",
         "--socket=wayland",
-        "--socket=x11"
+        "--socket=fallback-x11"
     ],
     "separate-locales": false,
 
