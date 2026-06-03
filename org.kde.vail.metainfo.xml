@@ -41,6 +41,7 @@
   <name xml:lang="sl">Vail</name>
   <name xml:lang="sv">Vail</name>
   <name xml:lang="tr">Vali</name>
+  <name xml:lang="ug">Vail</name>
   <name xml:lang="uk">Vail</name>
   <name xml:lang="zh-CN">Vail</name>
   <name xml:lang="zh-TW">Vail</name>
@@ -79,6 +80,7 @@
   <summary xml:lang="sl">Komuniciraj z Morsejevo kodo</summary>
   <summary xml:lang="sv">Kommunicera med Morsekod</summary>
   <summary xml:lang="tr">Mors Abecesi Dönüştürücüsü</summary>
+  <summary xml:lang="ug">مورس كودى ئىشلىتىپ ئالاقە قىلىدۇ</summary>
   <summary xml:lang="uk">Спілкування азбукою Морзе</summary>
   <summary xml:lang="zh-CN">使用摩斯电码通信</summary>
   <summary xml:lang="zh-TW">用摩斯電碼傳遞訊息</summary>
@@ -119,6 +121,7 @@
   <developer_name xml:lang="sl">Skupnost KDE,  Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ug">KDE جامائىتى، Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
@@ -199,6 +202,7 @@
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
+      <caption xml:lang="ug">ئاساسىي كۆرۈنۈش</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="zh-CN">主视图</caption>
       <caption xml:lang="zh-TW">主檢視</caption>
