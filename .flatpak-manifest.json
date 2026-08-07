@@ -12,8 +12,8 @@
         "--device=dri",
         "--share=ipc",
         "--share=network",
-        "--socket=wayland",
-        "--socket=fallback-x11"
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "separate-locales": false,
     "modules": [
