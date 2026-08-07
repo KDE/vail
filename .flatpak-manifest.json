@@ -25,10 +25,11 @@
                 {
                     "type": "dir",
                     "path": ".",
-                    "skip": [".git"]
+                    "skip": [
+                        ".git"
+                    ]
                 }
             ]
         }
     ]
 }
-
