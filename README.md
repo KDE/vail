@@ -14,7 +14,7 @@ Communicate using Morse
 To build a flatpak bundle of Vail use the following instructions:
 
 ```bash
-$ git clone https://invent.kde.org/fhek/vail.git
+$ git clone https://invent.kde.org/utilities/vail.git
 $ cd vail
 $ flatpak-builder --repo=repo build-dir --force-clean org.kde.vail.json
 $ flatpak build-bundle repo vail.flatpak org.kde.vail

@@ -166,7 +166,7 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://invent.kde.org/fhek/vail/-/raw/master/.gitlab/vail.png</image>
+      <image>https://invent.kde.org/utilities/vail/-/raw/master/.gitlab/vail.png</image>
       <caption>Main View</caption>
       <caption xml:lang="ar">النافذة الرئيسة</caption>
       <caption xml:lang="ca">Vista principal</caption>
@@ -220,6 +220,6 @@
   <provides>
     <binary>vail</binary>
   </provides>
-  <url type="homepage">https://invent.kde.org/fhek/vail</url>
-  <url type="bugtracker">https://invent.kde.org/fhek/vail/-/issues</url>
+  <url type="homepage">https://invent.kde.org/utilities/vail/</url>
+  <url type="bugtracker">https://invent.kde.org/utilities/vail/-/work_items/new</url>
 </component>
